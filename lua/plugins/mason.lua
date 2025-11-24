@@ -19,7 +19,6 @@ return {
         "tree-sitter-cli",
         "codespell",
         "marksman",
-        "prettierd",
         "lua-language-server",
         "bash-language-server",
         "rust-analyzer",
