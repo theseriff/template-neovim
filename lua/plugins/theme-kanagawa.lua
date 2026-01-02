@@ -16,7 +16,7 @@ return {
       palette = {
         sumiInk4 = "#1f1f28",
       },
-      theme = { wave = {}, lotus = {}, dragon = {}, all = {} },
+      -- theme = { wave = {}, lotus = {}, dragon = {}, all = {} },
     },
     overrides = function(colors) -- add/modify highlights
       return {}

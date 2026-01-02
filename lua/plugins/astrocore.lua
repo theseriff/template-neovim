@@ -54,7 +54,7 @@ return {
         breakindent = true,
 
         -- Визуальные улучшения
-        cursorline = true,
+        cursorline = false,
         cursorcolumn = false,
         termguicolors = true,
         showmode = false,
