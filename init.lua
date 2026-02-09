@@ -23,5 +23,16 @@ if not pcall(require, "lazy") then
   vim.cmd.quit()
 end
 
+vim.filetype.add {
+  extension = {
+    gotmpl = "gotmpl",
+  },
+  pattern = {
+    [".*/templates/.*%.tpl"] = "helm",
+    [".*/templates/.*%.ya?ml"] = "helm",
+    ["helmfile.*%.ya?ml"] = "helm",
+  },
+}
+
 require "lazy_setup"
 require "polish"
