@@ -21,11 +21,12 @@ return {
         -- install any other package
         "tree-sitter-cli",
 
-        "marksman",
+        "prettier",
         "basedpyright",
         "rust-analyzer",
         "lua-language-server",
         "bash-language-server",
+        "sql-formatter",
       },
     },
   },
