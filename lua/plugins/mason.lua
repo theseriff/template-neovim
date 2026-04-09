@@ -27,6 +27,8 @@ return {
         "lua-language-server",
         "bash-language-server",
         "sql-formatter",
+        "codespell",
+        "typos-lsp",
       },
     },
   },
