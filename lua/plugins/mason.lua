@@ -21,8 +21,9 @@ return {
         -- install any other package
         "tree-sitter-cli",
 
+        -- "pyrefly",
+        -- "basedpyright",
         "prettier",
-        "basedpyright",
         "rust-analyzer",
         "lua-language-server",
         "bash-language-server",
