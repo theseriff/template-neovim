@@ -4,7 +4,11 @@ return {
   event = "User AstroFile",
   main = "lsp_signature",
   opts = {
+    bind = true,
     hint_enable = false, -- disable hints as it will crash in some terminal
+    handler_opts = {
+      border = "rounded",
+    },
   },
   specs = {
     {

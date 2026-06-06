@@ -59,7 +59,7 @@ return {
 
         updatetime = 250,
         timeoutlen = 300,
-        scrolloff = 8,
+        scrolloff = 4,
         sidescrolloff = 8,
         undofile = true,
         swapfile = false,

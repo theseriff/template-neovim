@@ -41,6 +41,7 @@ return {
       "typos-lsp",
       "pyrefly",
       "basedpyright",
+      "ty",
     },
     -- customize language server configuration passed to `vim.lsp.config`
     -- client specific configuration can also go in `lsp/` in your configuration root (see `:h lsp-config`)
