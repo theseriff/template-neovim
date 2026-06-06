@@ -30,4 +30,6 @@ return {
   { import = "astrocommunity.lsp.nvim-lsp-file-operations" },
 
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
+
+  { import = "astrocommunity.git.gist-nvim" },
 }
