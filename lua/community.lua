@@ -18,13 +18,10 @@ return {
   { import = "astrocommunity.pack.toml" },
   { import = "astrocommunity.pack.xml" },
   { import = "astrocommunity.pack.yaml" },
-  { import = "astrocommunity.pack.sql" },
 
   { import = "astrocommunity.colorscheme.kanagawa-nvim" },
   { import = "astrocommunity.colorscheme.kanagawa-paper-nvim" },
   { import = "astrocommunity.colorscheme.gruvbox-nvim" },
-
-  { import = "astrocommunity.diagnostics.lsp_lines-nvim" },
 
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
   { import = "astrocommunity.lsp.lsp-lens-nvim" },

@@ -80,6 +80,27 @@ return {
       -- first key is the mode
       n = {
         -- second key is the lefthand side of the map
+        -- Aerial mappings
+        ["<Leader>a"] = { desc = "Aerial (Code Outline)" },
+        ["<Leader>ao"] = { function() require("aerial").open() end, desc = "Open Aerial" },
+        ["<Leader>at"] = { function() require("aerial").toggle() end, desc = "Toggle Aerial" },
+        ["<Leader>an"] = { function() require("aerial").next() end, desc = "Next Aerial symbol" },
+        ["<Leader>ap"] = { function() require("aerial").prev() end, desc = "Previous Aerial symbol" },
+        ["<Leader>af"] = {
+          function() require("aerial").open { focus = true, direction = "float" } end,
+          desc = "Open Aerial in floating window",
+        },
+        ["-"] = {
+          function()
+            local active = vim.diagnostic.is_enabled()
+            if active then
+              vim.diagnostic.enable(false)
+            else
+              vim.diagnostic.enable(true)
+            end
+          end,
+          desc = "off/on Diagnostic",
+        },
 
         -- navigate buffer tabs
         ["]b"] = { function() require("astrocore.buffer").nav(vim.v.count1) end, desc = "Next buffer" },
